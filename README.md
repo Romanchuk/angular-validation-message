@@ -1,2 +1,2 @@
-# angular-validation
-Angular 2+ validation
+# angular-validation-message
+Angular 2+ validation message
