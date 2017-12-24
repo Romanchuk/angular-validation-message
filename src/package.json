@@ -1,0 +1,33 @@
+{
+    "name": "angular-validation-message",
+    "version": "0.1.0",
+    "homepage": "https://github.com/Romanchuk/angular-validation-message#readme",
+    "author": {
+        "name": "Sergey Romanchuk"
+    },
+    "license": "MIT",
+    "description": "angular directive that inserts validation message right after your validating control",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Romanchuk/angular-validation-message.git"
+    },
+    "keywords": [
+        "forms",
+        "validation",
+        "angular"
+    ],
+    "bugs": {
+        "url": "https://github.com/Romanchuk/angular-validation-message/issues"
+    },
+    "maintainers": [{
+        "email": "rezety@gmail.com",
+        "name": "Sergey Romanchuk"
+    }],
+    "module": "angular-validation-message.es5.js",
+    "es2015": "angular-validation-message.js",
+    "typings": "angular-validation-message.d.ts",
+    "peerDependencies": {
+        "@angular/core": ">=4.0.0 <6.0.0",
+        "@angular/forms": ">=4.0.0 <6.0.0"
+    }
+}
