@@ -36,7 +36,7 @@
         "lint-js": "eslint '**/*.js' --ignore-path .gitignore",
         "preversion": "npm run clean:compile && npm run compile && npm run copy:assets",
         "version": "npm run changelog && git add CHANGELOG.md",
-        "postversion": "git push && git push --tags && conventional-github-releaser -p angular",
+        "postversion": "git push && git push --tags && npx conventional-github-releaser -p angular",
         "test": "npm run clean:tests && karma start karma.conf.js",
         "test:watch": "npm run clean:tests && karma start karma.conf.debug.js"
     },
