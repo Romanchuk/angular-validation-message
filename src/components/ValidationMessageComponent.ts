@@ -24,7 +24,7 @@ export class ValidationMessageComponent {
 
   @HostBinding('class.standalone') get standalone(): boolean {
     return this.acd == null;
-  };
+  }
 
   @Input() for: AbstractControl = null;
 
