@@ -10,7 +10,7 @@
         "url": "git+https://github.com/Romanchuk/angular-validation-message.git"
     },
     "license": "MIT",
-    "description": "angular directive that inserts validation message right after your validating control",
+    "description": "angular directive that inserts @angular/forms validation message right after your validating control",
     "engines": {
         "node": "4.4.4"
     },
