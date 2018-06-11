@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { ModuleWithProviders } from '@angular/core/src/metadata/ng_module';
 
 import { ValidationMessageComponent } from './components/ValidationMessageComponent';
 import { ValidationMessageDirective } from './directives/ValidationMessageDirective';
@@ -24,4 +25,10 @@ export const declarations = [
   ]
 })
 export class ValidationMessageModule {
+  public static forRoot(): ModuleWithProviders {
+    return {
+      ngModule: ValidationMessageModule,
+      providers: []
+    };
+  }
 }

@@ -1,6 +1,6 @@
 {
     "name": "angular-validation-message",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "homepage": "https://github.com/Romanchuk/angular-validation-message#readme",
     "author": {
         "name": "Sergey Romanchuk"
@@ -27,7 +27,7 @@
     "es2015": "angular-validation-message.js",
     "typings": "angular-validation-message.d.ts",
     "peerDependencies": {
-        "@angular/core": ">=4.0.0 <6.0.0",
-        "@angular/forms": ">=4.0.0 <6.0.0"
+        "@angular/core": ">=4.0.0 <7.0.0",
+        "@angular/forms": ">=4.0.0 <7.0.0"
     }
 }

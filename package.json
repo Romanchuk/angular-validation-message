@@ -1,6 +1,6 @@
 {
     "name": "angular-validation-message",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "author": {
         "name": "Sergey Romanchuk"
     },
@@ -41,12 +41,12 @@
         "test:watch": "npm run clean:tests && karma start karma.conf.debug.js"
     },
     "dependencies": {
-        "@angular/core": ">=4.0.0 <6.0.0",
-        "@angular/forms": ">=4.0.0 <6.0.0"
+        "@angular/core": ">=4.0.0 <7.0.0",
+        "@angular/forms": ">=4.0.0 <7.0.0"
     },
     "devDependencies": {
-        "@angular/compiler": ">=4.0.0 <6.0.0",
-        "@angular/compiler-cli": ">=4.0.0 <6.0.0",
+        "@angular/compiler": ">=4.0.0 <7.0.0",
+        "@angular/compiler-cli": ">=4.0.0 <7.0.0",
         "@types/chai": "^4.0.4",
         "@types/i18next": "^8.4.2",
         "@types/jasmine": "^2.6.2",
