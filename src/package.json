@@ -27,7 +27,7 @@
     "es2015": "angular-validation-message.js",
     "typings": "angular-validation-message.d.ts",
     "peerDependencies": {
-        "@angular/core": ">=4.0.0 <7.0.0",
-        "@angular/forms": ">=4.0.0 <7.0.0"
+        "@angular/core": ">=6.0.0 <8.0.0",
+        "@angular/forms": ">=6.0.0 <8.0.0"
     }
 }
