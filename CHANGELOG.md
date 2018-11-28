@@ -1,3 +1,7 @@
+# [1.1.0-beta](https://github.com/Romanchuk/angular-validation-message/compare/v1.0.0...v1.1.0-beta) (2018-11-28)
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/Romanchuk/angular-validation-message/compare/v0.1.0...v1.0.0) (2018-06-11)
 
