@@ -44,8 +44,8 @@
         "release": "npx np --contents=dist --yolo"
     },
     "peerDependencies": {
-        "@angular/core": ">=7.2.5 <8.0.0",
-        "@angular/forms": ">=7.2.5 <8.0.0"
+        "@angular/core": ">=6.0.0 <8.0.0",
+        "@angular/forms": ">=6.0.0 <8.0.0"
     },
     "devDependencies": {
         "@angular/compiler": "~7.2.5",
