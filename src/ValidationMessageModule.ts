@@ -1,5 +1,4 @@
-import { NgModule } from '@angular/core';
-import { ModuleWithProviders } from '@angular/core/src/metadata/ng_module';
+import { NgModule, ModuleWithProviders } from '@angular/core';
 
 import { ValidationMessageComponent } from './components/ValidationMessageComponent';
 import { ValidationMessageDirective } from './directives/ValidationMessageDirective';
