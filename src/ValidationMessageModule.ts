@@ -1,12 +1,12 @@
-import { NgModule, ModuleWithProviders } from '@angular/core';
-
+import { NgModule } from '@angular/core';
 import { ValidationMessageComponent } from './components/ValidationMessageComponent';
 import { ValidationMessageDirective } from './directives/ValidationMessageDirective';
 import { ValidationErrorBuilder } from './services/errorBuilder/ValidationErrorBuilder';
 
+
 export const declarations = [
   ValidationMessageDirective,
-  ValidationMessageComponent
+  ValidationMessageComponent,
 ];
 
 @NgModule({
@@ -23,11 +23,4 @@ export const declarations = [
     }
   ]
 })
-export class ValidationMessageModule {
-  public static forRoot(): ModuleWithProviders {
-    return {
-      ngModule: ValidationMessageModule,
-      providers: []
-    };
-  }
-}
+export class ValidationMessageModule {}
