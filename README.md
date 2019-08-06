@@ -40,3 +40,7 @@ Requirements:
 ### Custom providers
 
 You can implement your own provider. Check source code of **I18NextValidationMessageModule** as example
+
+### Migration
+
+Since v2 angular-validation-message includes providers
