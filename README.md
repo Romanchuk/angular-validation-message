@@ -22,10 +22,8 @@ After (clean markup with auto inserting error messages):
 
 ## Installation
 
-1.
-> npm install angular-validation-message
-2.
-Import **ValidationMessageModule** to module where you expect to enable error message to form fields
+1. > npm install angular-validation-message
+2. Import **ValidationMessageModule** to module where you expect to enable error message to form fields
 3. Set **validationMessage directive** to any form fields
 
 ## Providers
@@ -35,7 +33,9 @@ Import **ValidationMessageModule** to module where you expect to enable error me
 Bridge for "angular-validation-message" for translate error messages via i18next.
 
 Requirements:
-import **I18NextValidationMessageModule** insteand of ValidationMessageModule
+
+1. > npm install i18next angular-i18next
+2. import **I18NextValidationMessageModule** insteand of ValidationMessageModule
 
 ### Custom providers
 
