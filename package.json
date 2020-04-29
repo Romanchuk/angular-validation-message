@@ -48,7 +48,7 @@
         "@angular/forms": ">=6.0.0 <10.0.0"
     },
     "devDependencies": {
-        "angular-i18next": "^8.0.0",
+        "angular-i18next": "^9.0.1",
         "@angular/compiler": "~9.0.1",
         "@angular/compiler-cli": "~9.0.1",
         "@angular/common": "~9.0.1",
@@ -78,8 +78,8 @@
         "karma-sourcemap-loader": "^0.3.7",
         "karma-spec-reporter": "^0.0.32",
         "karma-webpack": "^3.0.5",
-        "ng-packagr": "^9.0.0",
-        "np": "^6.0.0",
+        "ng-packagr": "^9.1.1",
+        "np": "^6.2.3",
         "tslint": "^6.0.0",
         "ts-helpers": "1.1.2",
         "typedoc": "^0.16.10",
