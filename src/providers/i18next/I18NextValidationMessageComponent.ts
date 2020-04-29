@@ -8,6 +8,7 @@ import { ValidationMessageComponent } from '../../components/ValidationMessageCo
     selector: 'i18next-validation-message',
     template: `
       <div class="error-container">{{ i18nextKey | i18nextCap: firstMessage.params }}</div>
+      <i class="error-icon"></i>
     `,
     styles: [`
       i18next-validation-message {

@@ -7,6 +7,7 @@ import { ValidationMessage } from './model/ValidationMessage';
     selector: 'validation-message',
     template: `
       <div class="error-container">{{ firstMessage.key + (firstMessage.params ? '(' + firstMessage.params + ')' : '') }}</div>
+      <i class="error-icon"></i>
     `,
     styles: [`
       validation-message {
