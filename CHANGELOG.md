@@ -1,3 +1,7 @@
+# [3.1.0](https://github.com/Romanchuk/angular-validation-message/compare/v3.0.1...v3.1.0) (2020-04-29)
+
+
+
 ## [3.0.1](https://github.com/Romanchuk/angular-validation-message/compare/v2.0.1...v3.0.1) (2020-02-17)
 
 
