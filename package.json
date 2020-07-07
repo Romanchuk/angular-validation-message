@@ -17,7 +17,7 @@
     "license": "MIT",
     "description": "angular directive that inserts @angular/forms validation message right after your validating control",
     "engines": {
-        "node": "4.4.4"
+        "node": ">=10.0.0"
     },
     "scripts": {
         "karma": "npx karma",
@@ -44,33 +44,37 @@
         "release": "npx np --contents=dist --yolo"
     },
     "peerDependencies": {
-        "@angular/core": ">=6.0.0 <10.0.0",
-        "@angular/forms": ">=6.0.0 <10.0.0"
+        "@angular/core": ">=10.0.0 <11.0.0",
+        "@angular/forms": ">=10.0.0 <11.0.0"
+    },
+    "dependencies": {
+        "tslib": "^2.0.0"
+    },
+    "optionalDependencies": {
+        "angular-i18next": ">=10.0.0 <11.0.0"
     },
     "devDependencies": {
-        "angular-i18next": "^9.0.1",
-        "@angular/compiler": "~9.0.1",
-        "@angular/compiler-cli": "~9.0.1",
-        "@angular/common": "~9.0.1",
-        "@angular/core": "~9.0.1",
-        "@angular/forms": "~9.0.1",
-        "@angular/platform-browser": "~9.0.1",
-        "@angular/platform-browser-dynamic": "~9.0.1",
+        "@angular/common": "^10.0.0",
+        "@angular/compiler": "^10.0.0",
+        "@angular/compiler-cli": "^10.0.0",
+        "@angular/core": "^10.0.0",
+        "@angular/forms": "^10.0.0",
+        "@angular/platform-browser": "^10.0.0",
+        "@angular/platform-browser-dynamic": "^10.0.0",
         "@types/chai": "^4.1.7",
-        "@types/i18next": "^13.0.0",
         "@types/jasmine": "^3.3.13",
         "@types/sinon": "^7.0.12",
+        "angular-i18next": "^10.0.0",
         "chai": "^4.2.0",
-        "conventional-changelog-cli": "^2.0.21",
-        "conventional-github-releaser": "^3.1.2",
-        "coveralls": "^3.0.3",
         "codelyzer": "^5.2.1",
+        "conventional-changelog-cli": "^2.0.21",
+        "conventional-github-releaser": "^3.1.5",
+        "coveralls": "^3.0.3",
+        "cpy-cli": "^2.0.0",
         "es6-shim": "0.35.5",
-        "rimraf": "^2.6.3",
-        "sinon": "^7.3.2",
+        "istanbul-instrumenter-loader": "3.0.1",
         "jasmine": "^3.4.0",
         "jasmine-core": "^3.4.0",
-        "istanbul-instrumenter-loader": "3.0.1",
         "karma": "^4.1.0",
         "karma-chrome-launcher": "^2.2.0",
         "karma-coverage": "^1.1.2",
@@ -78,17 +82,16 @@
         "karma-sourcemap-loader": "^0.3.7",
         "karma-spec-reporter": "^0.0.32",
         "karma-webpack": "^3.0.5",
-        "ng-packagr": "^9.1.1",
+        "ng-packagr": "^10.0.0",
         "np": "^6.2.3",
-        "tslint": "^6.0.0",
+        "rimraf": "^2.6.3",
+        "sinon": "^7.3.2",
         "ts-helpers": "1.1.2",
-        "typedoc": "^0.16.10",
-        "typescript": "3.7.5",
-        "zone.js": "^0.10.2",
-        "cpy-cli": "^2.0.0",
         "tsickle": "^0.38.0",
-        "tslib": "^1.10.0",
-        "webpack": "^4.26.0"
-    },
-    "dependencies": {}
+        "tslint": "^6.0.0",
+        "typedoc": "^0.16.10",
+        "typescript": "^3.9.6",
+        "webpack": "^4.26.0",
+        "zone.js": "^0.10.2"
+    }
 }
