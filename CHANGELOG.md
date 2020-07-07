@@ -1,3 +1,9 @@
+## 4.0.0 (2020-07-07)
+
+* angular 10 support ([e1d006d](https://github.com/Romanchuk/angular-validation-message/commit/e1d006d))
+
+
+
 # [3.1.0](https://github.com/Romanchuk/angular-validation-message/compare/v3.0.1...v3.1.0) (2020-04-29)
 
 
