@@ -1,3 +1,11 @@
+## 5.0.0-2 (2021-04-05)
+
+* update np version ([08d829f](https://github.com/Romanchuk/angular-validation-message/commit/08d829f))
+* update versions. angular 11 ([590418f](https://github.com/Romanchuk/angular-validation-message/commit/590418f))
+* Updated CHANGELOG.md ([56e21ec](https://github.com/Romanchuk/angular-validation-message/commit/56e21ec))
+
+
+
 ## 5.0.0-1 (2021-04-05)
 
 * update np version ([08d829f](https://github.com/Romanchuk/angular-validation-message/commit/08d829f))
