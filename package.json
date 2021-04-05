@@ -83,7 +83,7 @@
         "karma-spec-reporter": "^0.0.32",
         "karma-webpack": "^3.0.5",
         "ng-packagr": "^11.2.4",
-        "np": "^6.2.3",
+        "np": "^7.4.0",
         "rimraf": "^2.6.3",
         "sinon": "^7.3.2",
         "ts-helpers": "1.1.2",
