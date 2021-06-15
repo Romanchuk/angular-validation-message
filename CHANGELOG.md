@@ -1,3 +1,8 @@
+## 6.0.0 (2021-06-15)
+
+
+
+
 ## 6.0.0-0 (2021-06-15)
 
 * upd: angular 12 support ([1c0a120](https://github.com/Romanchuk/angular-validation-message/commit/1c0a120))
