@@ -1,3 +1,7 @@
+# [7.0.0-0](https://github.com/Romanchuk/angular-validation-message/compare/v6.0.0...v7.0.0-0) (2022-02-17)
+
+
+
 ## 6.0.0 (2021-06-15)
 
 
